@@ -1,3 +1,44 @@
+html  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #beef;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
+
     text-align: center;
+    background-color: gray;
+}
+h2 {
+    width: 30%;
+    height: auto;
+    padding: 4px;
+    border-bottom: 1px solid black;
+}
+p {
+    text-indent: 20px;
+    margin: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.navbar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
 }
